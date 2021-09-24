@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="90.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.asigaka.java.filemanager.Controller">
+    <Label fx:id="labelProgress" alignment="CENTER" maxWidth="1.7976931348623157E308" minWidth="-Infinity" textAlignment="JUSTIFY" wrapText="true" VBox.vgrow="ALWAYS">
+      <font>
+         <Font size="15.0" />
+      </font></Label>
+    <ProgressBar fx:id="progressBar" maxWidth="Infinity" VBox.vgrow="ALWAYS" />
+   <Label fx:id="nameFileLabel" alignment="CENTER" maxWidth="1.7976931348623157E308" minWidth="-Infinity" textAlignment="JUSTIFY" wrapText="true">
+      <font>
+         <Font size="13.0" />
+      </font>
+   </Label>
+</VBox>
